@@ -46,7 +46,7 @@ public class CalendarServiceBuilder {
 
                 // TODO: Get an API key from Google's APIs Console:
                 // https://code.google.com/apis/console.
-                calendarRequest.setKey("AIzaSyCxLvfBrhMk9-RDAD5YG7L0FqEaCynoAFg");
+                calendarRequest.setKey("<INPUT_YOUR_API_KEY>");
               }
             }).setHttpRequestInitializer(accessProtectedResource).build();
     Log.d(Constants.TAG,"Calendar Service: " + service.toString());
