@@ -1,33 +1,24 @@
-/*
- * SilenceIt - An open source project for the Android platform, that will silence your mobile according to your
- * calendar appointment.
- * Application written in Java
- * Application uses Google Calendar API Powered by GOOGLE
- * 
- * Copyright (C) 2012 Neena Maldikar
+/* **************************************************************************
+ * Copyright© 2012 Neena Maldikar
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
  *
- * Please see the file License in this distribution for license terms. Below is the link to the file License.
- * https://github.com/neenamaldikar/SilenceIt/blob/master/License
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details. You should have
+ * received a copy of the GNU General Public License along with this program. 
+ * If not, see <http://www.gnu.org/licenses/>.
  *
- * Following is the link for the repository- https://github.com/neenamaldikar/SilenceIt.git
+ * Author: Neena Maldikar
+ * Feedback: neena@pdx.edu
  *
- * This library is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2.1 of the License, or (at
- * your option) any later version.
- *  
- * This library is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
- * for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this library; if not, write to the Free Software Foundation,
- * Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
- * 
- * Written by Neena Maldikar <neena@pdx.edu>
- * 
- */
+ * SilenceIt - An android app that changes your phone volume as per your 
+ * calendar event.
+ ****************************************************************************/
+
 package com.SilenceIt.service;
 
 import android.app.IntentService;

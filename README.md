@@ -102,3 +102,4 @@ helped me in overcoming any technical difficulties.
 Also, many thanks for the code samples @
 http://code.google.com/p/google-meeting-scheduler/
 
+Special thanks to my friend Nilesh who gave me an idea for this app.
