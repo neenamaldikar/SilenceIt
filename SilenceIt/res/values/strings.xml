@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">AAA</string>
+    <string name="app_name">SilenceIt</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">SilenceIt</string>
 	<string name="choose_account_title">Choose account</string>
+	<string name="Stop">Stop</string>
+	<string name="Start">Start</string>
 </resources>

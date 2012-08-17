@@ -3,16 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-	<Button
-	    android:id="@+id/buttonStart"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:text="Start"/>
-	<Button
-	    android:id="@+id/buttonStop"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:text="Stop"/>
-    
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Start" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Stop" />
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.09" />
+
 </LinearLayout>

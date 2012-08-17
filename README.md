@@ -4,25 +4,28 @@
 * it under the terms of the GNU General Public License as published by
 * the Free Software Foundation, either version 3 of the License, or
 * (at your option) any later version.
-
+*
 * This program is distributed in the hope that it will be useful,
 * but WITHOUT ANY WARRANTY; without even the implied warranty of
 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 * GNU General Public License for more details. You should have
 * received a copy of the GNU General Public License along with this program. 
 * If not, see <http://www.gnu.org/licenses/>.
-
+*
 * Author: Neena Maldikar
 * Feedback: neena@pdx.edu
 *******************************************************************/
 
+SilenceIt
+=========
+
 Description of the project:
 ---------------------------
 This is an open source project for the Android platform. It is an Android App that 
-will sillence your mobile according to your calendar appointment.
+changes your phone volume according to your calendar.
 
 When the user clicks on "Start" button, the app fetches the user account details 
-from the Google Account setting on the phone. If there are multiple accounts, it 
+from the Google Account settings on the phone. If there are multiple accounts, it 
 displays all the accounts and lets the user choose one. If there is only one account,
 it does not ask user to select it. Once the account is selected, it looks up the 
 Google calendar for that account and cheks for the first calendar appointment with 
@@ -51,12 +54,15 @@ Future Enhancements
    dead code (method: stopAlarm)in 'SetAlarmService.java' module for this. This code
    does not work as expected. It should be fixed and the service should be called from
    'OnClickListener stopListener' in 'MainActivity'. 
+   
+2. There should be an incon on the top indicating that the service is running in the 
+   background.
 
-2. The application displays toast notifications, when the app changes the phone volume
+3. The application displays toast notifications, when the app changes the phone volume
    to silent or normal. This can be changed to interactive snooze notification that 
    will allow the user to snooze it.
 
-3. Provide user with the setting that will allow to change between silent, vibrate and
+4. Provide user with the setting that will allow to change between silent, vibrate and
    normal for the appointments.
 
 NOTE: The application is still under testing phase so please let me know via email in
@@ -64,36 +70,34 @@ case of any issues.
 
 Platform:
 ---------
-Android device with version (4.1). 
+Android device (Google API platform 4.1 API Level 16)
 
 Installation:
 -------------
-Please read "INSTALL.txt" located at below location:
+Please read "INSTALL.pdf" located at below location:
 
-https://github.com/neenamaldikar/SilenceIt/???
+https://github.com/neenamaldikar/SilenceIt/blob/master/INSTALL.pdf
 
-for complete instructions on how to install and use this application by users(Developer 
-or EndUser). 
+for complete instructions on how to install and configure this application
+for use by developers. 
 
 Step-by-Step guide on how to Use the application:
 -------------------------------------------------
-Please read "USER_MANUAL.txt" located at below location:
+Please read "USER_MANUAL.pdf" located at below location:
 
-https://github.com/neenamaldikar/SilenceIt/???
-
+https://github.com/neenamaldikar/SilenceIt/blob/master/USER_MANUAL.pdf
 
 License Information:
 --------------------
 This application is licensed under GPLv3. Please read "LICENSE.txt" for full version 
 of the license terms and conditions located at: 
-https://github.com/neenamaldikar/SilenceIt/??
+https://github.com/neenamaldikar/SilenceIt/blob/master/LICENSE.txt
 
 Attributions:
 -------------
 I am very grateful to all the people whose queries and answers on stackoverflow.com 
 helped me in overcoming any technical difficulties.
 
-FOR CODE SAMPLES:
-
+Also, many thanks for the code samples @
 http://code.google.com/p/google-meeting-scheduler/
 

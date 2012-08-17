@@ -1,0 +1,132 @@
+08-13 21:27:48.031: D/SilenceIt(1523): Main Activity: onResume
+08-13 21:27:48.031: D/SilenceIt(1523): In displayTextMessage
+08-13 21:27:48.562: D/gralloc_goldfish(1523): Emulator without GPU emulation detected.
+08-13 21:28:56.451: D/SilenceIt(1523): onClick() called - start button
+08-13 21:28:56.591: D/SilenceIt(1523): Inside getAccount
+08-13 21:28:56.621: E/SilenceIt(1523): Multiple matching accounts found.
+08-13 21:28:57.191: D/SilenceIt(1523): onClick() ended - start button
+08-13 21:28:57.581: I/Choreographer(1523): Skipped 97 frames!  The application may be doing too much work on its main thread.
+08-13 21:29:00.701: I/Choreographer(1523): Skipped 55 frames!  The application may be doing too much work on its main thread.
+08-13 21:29:00.931: E/SilenceIt(1523): Got auth token: false
+08-13 21:29:00.931: D/SilenceIt(1523): before runnable
+08-13 21:29:01.011: D/SilenceIt(1523): inside runnable
+08-13 21:29:01.801: D/dalvikvm(1523): GC_CONCURRENT freed 197K, 4% free 8256K/8519K, paused 78ms+100ms, total 388ms
+08-13 21:29:01.854: D/SilenceIt(1523): In Get busy times 0
+08-13 21:29:01.873: D/SilenceIt(1523): In Get busy times 1com.google.api.services.calendar.Calendar@4124ca98
+08-13 21:29:01.912: D/SilenceIt(1523): In Get busy times 2{items=[{id=neena.maldikar@gmail.com}], timeMax=2012-08-14T05:29:01.655Z, timeMin=2012-08-14T04:29:01.655Z}
+08-13 21:29:03.991: D/dalvikvm(1523): GC_CONCURRENT freed 376K, 6% free 8287K/8775K, paused 84ms+102ms, total 320ms
+08-13 21:29:04.361: D/SilenceIt(1523): busy: [{"end":"2012-08-14T04:31:00.343Z","start":"2012-08-14T04:30:00.342Z"}, {"end":"2012-08-14T04:33:00.345Z","start":"2012-08-14T04:32:00.344Z"}]
+08-13 21:29:04.361: D/SilenceIt(1523): size of busytimes: 1
+08-13 21:29:04.371: D/SilenceIt(1523): is empty busytimes: false
+08-13 21:29:04.371: D/SilenceIt(1523): defaultFirst: []
+08-13 21:29:04.401: D/SilenceIt(1523): First: [{"end":"2012-08-14T04:31:00.343Z","start":"2012-08-14T04:30:00.342Z"}, {"end":"2012-08-14T04:33:00.345Z","start":"2012-08-14T04:32:00.344Z"}]
+08-13 21:29:04.401: D/SilenceIt(1523): Returning FirstEvent: {"end":"2012-08-14T04:31:00.343Z","start":"2012-08-14T04:30:00.342Z"}
+08-13 21:29:04.401: D/SilenceIt(1523): Got first event
+08-13 21:29:04.411: D/SilenceIt(1523): inside handler
+08-13 21:29:04.411: D/SilenceIt(1523): In startSetAlarmService
+08-13 21:29:04.421: D/SilenceIt(1523): FirstEvent NOT null
+08-13 21:29:04.421: D/SilenceIt(1523): FirstEvent: {"end":"2012-08-14T04:31:00.343Z","start":"2012-08-14T04:30:00.342Z"}
+08-13 21:29:04.434: D/SilenceIt(1523): begin_time: 1344918600342
+08-13 21:29:04.434: D/SilenceIt(1523): end_time: 1344918660343
+08-13 21:29:04.462: D/SilenceIt(1523): First Event begin date format: 2012-08-13 21:30:00
+08-13 21:29:04.472: D/SilenceIt(1523): In displayTextMessage
+08-13 21:29:04.581: D/SetAlarm(1523): SetAlarmService - onHandleIntent
+08-13 21:29:04.581: D/SetAlarm(1523): call_service: null
+08-13 21:29:04.591: D/SetAlarm(1523): call service == null
+08-13 21:29:04.591: D/SetAlarm(1523): begin_time: 1344918600342
+08-13 21:29:04.591: D/SetAlarm(1523): end_time: 1344918660343
+08-13 21:29:04.591: D/SetAlarm(1523): silence
+08-13 21:29:04.591: D/SetAlarm(1523): normal
+08-13 21:29:04.621: D/SilenceIt(1523): PendingIntent silence: PendingIntent{412500c8: android.os.BinderProxy@41241400}
+08-13 21:29:04.631: D/SilenceIt(1523): PendingIntent normal: PendingIntent{4121be20: android.os.BinderProxy@4121bdc0}
+08-13 21:30:00.482: D/SilenceIt(1523): service - onHandleIntent
+08-13 21:30:00.482: D/SilenceIt(1523): silence
+08-13 21:30:00.492: D/SilenceIt(1523): Inside toastmessage. message = silence
+08-13 21:30:00.502: D/SilenceIt(1523): In changeVolume
+08-13 21:30:00.513: D/SilenceIt(1523): message == silence
+08-13 21:31:00.391: D/SilenceIt(1523): service - onHandleIntent
+08-13 21:31:00.391: D/SilenceIt(1523): normal
+08-13 21:31:00.401: D/SilenceIt(1523): In changeVolume
+08-13 21:31:00.411: D/SilenceIt(1523): Inside toastmessage. message = normal
+08-13 21:31:00.481: D/SilenceIt(1523): message == normal
+08-13 21:31:00.811: D/SilenceIt(1523): Inside GetAccount Service
+08-13 21:31:00.811: D/SilenceIt(1523): OAuth - doLogin - first
+08-13 21:31:00.821: D/SilenceIt(1523): Not Null Account: Account {name=neena.maldikar@gmail.com, type=com.google}
+08-13 21:31:00.821: D/SilenceIt(1523): OAuth - doLogin - second
+08-13 21:31:00.831: D/SilenceIt(1523): accountAccount {name=neena.maldikar@gmail.com, type=com.google}
+08-13 21:31:00.831: D/SilenceIt(1523): accountName: neena.maldikar@gmail.com
+08-13 21:31:00.831: D/SilenceIt(1523): authToken: ya29.AHES6ZSDJqF1_fz0CtQnV4ON43uMMBrbLnM7bHuA8WwJc6Mf6Q
+08-13 21:31:00.851: D/SilenceIt(1523): !invalidate && authToken != null
+08-13 21:31:00.851: D/SilenceIt(1523): before runnable
+08-13 21:31:00.941: D/SilenceIt(1523): inside runnable
+08-13 21:31:00.941: D/SilenceIt(1523): In Get busy times 0
+08-13 21:31:00.981: D/SilenceIt(1523): In Get busy times 1com.google.api.services.calendar.Calendar@411da270
+08-13 21:31:01.021: D/SilenceIt(1523): In Get busy times 2{items=[{id=neena.maldikar@gmail.com}], timeMax=2012-08-14T05:31:00.948Z, timeMin=2012-08-14T04:31:00.948Z}
+08-13 21:31:02.181: D/SilenceIt(1523): busy: [{"end":"2012-08-14T04:33:00.181Z","start":"2012-08-14T04:32:00.178Z"}]
+08-13 21:31:02.181: D/SilenceIt(1523): size of busytimes: 1
+08-13 21:31:02.191: D/SilenceIt(1523): is empty busytimes: false
+08-13 21:31:02.191: D/SilenceIt(1523): defaultFirst: []
+08-13 21:31:02.291: D/SilenceIt(1523): First: [{"end":"2012-08-14T04:33:00.181Z","start":"2012-08-14T04:32:00.178Z"}]
+08-13 21:31:02.392: D/SilenceIt(1523): Returning FirstEvent: {"end":"2012-08-14T04:33:00.181Z","start":"2012-08-14T04:32:00.178Z"}
+08-13 21:31:02.392: D/SilenceIt(1523): Got first event
+08-13 21:31:02.392: D/SilenceIt(1523): inside handler
+08-13 21:31:02.392: D/SilenceIt(1523): In startSetAlarmService
+08-13 21:31:02.402: D/SilenceIt(1523): FirstEvent NOT null
+08-13 21:31:02.421: D/SilenceIt(1523): FirstEvent: {"end":"2012-08-14T04:33:00.181Z","start":"2012-08-14T04:32:00.178Z"}
+08-13 21:31:02.421: D/SilenceIt(1523): begin_time: 1344918720178
+08-13 21:31:02.421: D/SilenceIt(1523): end_time: 1344918780181
+08-13 21:31:02.556: D/dalvikvm(1523): GC_CONCURRENT freed 393K, 6% free 8363K/8839K, paused 86ms+20ms, total 358ms
+08-13 21:31:02.561: D/SetAlarm(1523): SetAlarmService - onHandleIntent
+08-13 21:31:02.561: D/SetAlarm(1523): call_service: null
+08-13 21:31:02.561: D/SetAlarm(1523): call service == null
+08-13 21:31:02.571: D/SetAlarm(1523): begin_time: 1344918720178
+08-13 21:31:02.571: D/SetAlarm(1523): end_time: 1344918780181
+08-13 21:31:02.571: D/SetAlarm(1523): silence
+08-13 21:31:02.571: D/SetAlarm(1523): normal
+08-13 21:31:02.591: D/SilenceIt(1523): PendingIntent silence: PendingIntent{4125bc40: android.os.BinderProxy@4127fac8}
+08-13 21:31:02.611: D/SilenceIt(1523): PendingIntent normal: PendingIntent{4124fb98: android.os.BinderProxy@4127daa0}
+08-13 21:32:00.322: D/SilenceIt(1523): service - onHandleIntent
+08-13 21:32:00.322: D/SilenceIt(1523): silence
+08-13 21:32:00.322: D/SilenceIt(1523): Inside toastmessage. message = silence
+08-13 21:32:00.342: D/SilenceIt(1523): In changeVolume
+08-13 21:32:00.342: D/SilenceIt(1523): message == silence
+08-13 21:33:00.321: D/SilenceIt(1523): service - onHandleIntent
+08-13 21:33:00.321: D/SilenceIt(1523): normal
+08-13 21:33:00.321: D/SilenceIt(1523): Inside toastmessage. message = normal
+08-13 21:33:00.372: D/SilenceIt(1523): In changeVolume
+08-13 21:33:00.401: D/SilenceIt(1523): message == normal
+08-13 21:33:00.981: D/SilenceIt(1523): Inside GetAccount Service
+08-13 21:33:00.992: D/SilenceIt(1523): OAuth - doLogin - first
+08-13 21:33:00.992: D/SilenceIt(1523): Not Null Account: Account {name=neena.maldikar@gmail.com, type=com.google}
+08-13 21:33:01.043: D/SilenceIt(1523): OAuth - doLogin - second
+08-13 21:33:01.043: D/SilenceIt(1523): accountAccount {name=neena.maldikar@gmail.com, type=com.google}
+08-13 21:33:01.051: D/SilenceIt(1523): accountName: neena.maldikar@gmail.com
+08-13 21:33:01.051: D/SilenceIt(1523): authToken: ya29.AHES6ZSDJqF1_fz0CtQnV4ON43uMMBrbLnM7bHuA8WwJc6Mf6Q
+08-13 21:33:01.051: D/SilenceIt(1523): !invalidate && authToken != null
+08-13 21:33:01.051: D/SilenceIt(1523): before runnable
+08-13 21:33:01.091: D/SilenceIt(1523): inside runnable
+08-13 21:33:01.191: D/SilenceIt(1523): In Get busy times 0
+08-13 21:33:01.191: D/SilenceIt(1523): In Get busy times 1com.google.api.services.calendar.Calendar@4127a070
+08-13 21:33:01.273: D/SilenceIt(1523): In Get busy times 2{items=[{id=neena.maldikar@gmail.com}], timeMax=2012-08-14T05:33:01.097Z, timeMin=2012-08-14T04:33:01.097Z}
+08-13 21:33:02.111: D/SilenceIt(1523): busy: [{"end":"2012-08-14T05:33:01.106Z","start":"2012-08-14T04:34:00.105Z"}]
+08-13 21:33:02.111: D/SilenceIt(1523): size of busytimes: 1
+08-13 21:33:02.111: D/SilenceIt(1523): is empty busytimes: false
+08-13 21:33:02.111: D/SilenceIt(1523): defaultFirst: []
+08-13 21:33:02.131: D/SilenceIt(1523): First: [{"end":"2012-08-14T05:33:01.106Z","start":"2012-08-14T04:34:00.105Z"}]
+08-13 21:33:02.131: D/SilenceIt(1523): Returning FirstEvent: {"end":"2012-08-14T05:33:01.106Z","start":"2012-08-14T04:34:00.105Z"}
+08-13 21:33:02.131: D/SilenceIt(1523): Got first event
+08-13 21:33:02.131: D/SilenceIt(1523): inside handler
+08-13 21:33:02.141: D/SilenceIt(1523): In startSetAlarmService
+08-13 21:33:02.141: D/SilenceIt(1523): FirstEvent NOT null
+08-13 21:33:02.141: D/SilenceIt(1523): FirstEvent: {"end":"2012-08-14T05:33:01.106Z","start":"2012-08-14T04:34:00.105Z"}
+08-13 21:33:02.151: D/SilenceIt(1523): begin_time: 1344918840105
+08-13 21:33:02.151: D/SilenceIt(1523): end_time: 1344922381106
+08-13 21:33:02.211: D/SetAlarm(1523): SetAlarmService - onHandleIntent
+08-13 21:33:02.211: D/SetAlarm(1523): call_service: null
+08-13 21:33:02.211: D/SetAlarm(1523): call service == null
+08-13 21:33:02.211: D/SetAlarm(1523): begin_time: 1344918840105
+08-13 21:33:02.221: D/SetAlarm(1523): end_time: 1344922381106
+08-13 21:33:02.221: D/SetAlarm(1523): silence
+08-13 21:33:02.221: D/SetAlarm(1523): normal
+08-13 21:33:02.221: D/SilenceIt(1523): PendingIntent silence: PendingIntent{41271390: android.os.BinderProxy@4127fac8}
+08-13 21:33:02.241: D/SilenceIt(1523): PendingIntent normal: PendingIntent{41224bc0: android.os.BinderProxy@4127daa0}
